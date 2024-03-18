@@ -1,0 +1,12 @@
+.controlWrap {
+  display: flex;
+
+  .controlItem {
+    display: flex;
+    align-items: center;
+  }
+
+  .controlItem+.controlItem {
+    margin-left: 24px;
+  }
+}

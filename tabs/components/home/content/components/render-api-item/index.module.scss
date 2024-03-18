@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .tag {
+    margin-left: 12px;
+  }
+
+  .iconWrap {
+    // margin-left: 24px;
+    float: right;
+    font-size: 18px;
+
+    svg+svg {
+      margin-left: 12px;
+    }
+  }
+}
